@@ -1,9 +1,25 @@
+nav {
+  background-color: #ffe926;
+  border: 1px black;
+  border-bottom-left-radius: 5rem;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
 textarea {
+  text-align: center;
   width: 90%;
   height: 10vh;
   display: block;
   margin: 1rem;
   padding: 1rem;
+}
+button {
+  align-items: center;
+  text-align: center;
 }
 #text {
   font-size: larger;
@@ -14,4 +30,10 @@ textarea {
   width: 80%;
   margin: 1rem;
   padding: 1rem;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
